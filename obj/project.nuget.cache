@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YZoEIqvoP5uwYuojnZ2cAlmtLOIeV9uwW6cqikRA0RGyyNgAl+QMoncY50+9KVZepBT0AjoRfzHSDlX2XeU7Kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\ImageToText\\ImageToText.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
