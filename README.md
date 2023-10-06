@@ -1,5 +1,5 @@
 # ImageToText
-Converts an image to text!
+Converts an image to text! Only works on windows (for now)
 
 ```
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++..
