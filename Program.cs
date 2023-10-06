@@ -42,7 +42,6 @@ class imageProcesser
         } while (!accepted);
         height = (image.Height * width)/image.Width;
         double[,] ascii = normalize(getShadeValue(image, height, width), height, width);
-        
 
         image.Dispose();
         for(int y = 0; y < height; ++y)
@@ -137,8 +136,8 @@ class imageProcesser
         {
             for (int x = 0; x < width; x++)
             {
-                arr[y, x] -= minS;
-                arr[y,x] *= 255 / (maxS - minS);
+                arr[y, x] += 240-maxS;
+                arr[y,x] *= 210 / (maxS - minS);
             }
         }
         return arr;
